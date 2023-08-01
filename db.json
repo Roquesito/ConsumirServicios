@@ -1,0 +1,41 @@
+// 20230801101150
+// https://my-json-server.typicode.com/typicode/demo/db
+
+{
+  "users":[
+    {"id": 1,"name": "Marines Mendez", "username": "MGMarines", "email": "marines@gmail.com", "imagen": "https://i.ibb.co/ZH73560/cody.jpg"},
+    {"id": 2,"name": "Jose", "username": "MGMarines", "email": "marines@gmail.com", "imagen": "https://i.ibb.co/ZH73560/cody.jpg"},
+    {"id": 1,"name": "Carmen", "username": "MGMarines", "email": "marines@gmail.com", "imagen": "https://i.ibb.co/ZH73560/cody.jpg"},
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "¿Porque adoptar animales?",
+      "body": "pienso que es importante adoptar porque ......",
+      "userId": 1
+    },
+    {
+      "id": 2,
+       "title": "¿Que pienso del calentamiendo global?",
+      "body": "pienso que es importante adoptar porque ......",
+      "userId": 1
+    },
+    {
+      "title": "¿Como crear mi propia empresa?",
+      "body": "antes necesitas saber que ......",
+      "userId": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ]
+}
